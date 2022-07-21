@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-// const dbURI ="mongodb+srv://baljit:baljit123@cluster0.uoltt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const dbURI = "mongodb+srv://baljit:baljit123@cluster0.uoltt.mongodb.net/?retryWrites=true&w=majority";
+const dbURI ="mongodb+srv://baljit:baljit123@cluster0.uoltt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+// const dbURI = "mongodb+srv://baljit:baljit123@cluster0.uoltt.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(dbURI,{
     dbName: 'UsedProducts',
     useNewUrlParser: true,
